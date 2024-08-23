@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-container d-flex flex-column justify-content-center" id="colorPickerContainer">
+        <h1>Color Picker</h1>
+        <div>
+            <button id="button1" onclick="color1()">#e0e0e0</button>
+            <button id="button2" onclick="color2()">#6fcf97</button>
+            <button id="button3" onclick="color3()">#56ccf2</button>
+            <button id="button4" onclick="color4()">#bb6bd9</button>
+        </div>
+        <p class="box">Background Color : <span id="selectedColorHexCode">#fffff</span></p>
+        <p>Try clicking on one of the colors above to change the background color of this page!</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
