@@ -5,10 +5,6 @@
     height: 100vh;
 }
 
-.checked {
-    text-decoration: line-through;
-}
-
 .todos-heading {
     text-align: center;
     font-family: "Roboto";
@@ -62,7 +58,7 @@
     padding: 15px;
 }
 
-.add-todo-button {
+.button {
     color: white;
     background-color: #4c63b6;
     font-family: "Roboto";
@@ -116,4 +112,8 @@
 
 .delete-icon {
     padding: 15px;
+}
+
+.checked {
+    text-decoration: line-through;
 }
