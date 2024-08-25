@@ -1,0 +1,10 @@
+let inputElement = document.createElement('input');
+inputElement.setAttribute('id', 'checkbox');
+inputElement.setAttribute('type', 'checkbox');
+let labelElement = document.createElement('label');
+labelElement.setAttribute('id', 'checkboxLabel');
+labelElement.setAttribute('for', 'checkbox');
+labelElement.textContent = "Click Me!";
+let container = document.getElementById('checkboxWithLabelContainer');
+container.appendChild(inputElement);
+container.appendChild(labelElement);
